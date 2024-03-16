@@ -206,7 +206,7 @@ strong {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
+@keyframes spinner {
   to {transform: rotate(360deg);
   }
 }
@@ -363,6 +363,7 @@ strong {
   padding-left: 0;
   margin-right: 20px;
   margin-left: 20px;
+  font-size: 16px;
 }
 
 .navbar-nav .nav-link {
@@ -829,7 +830,7 @@ strong {
 .form-check-label-text {
   color: var(--p-color);
   display: block;
-  font-size: copyright-font-size;
+  font-size: var(--copyright-font-size);
   margin-top: 5px;
 }
 
@@ -1036,7 +1037,7 @@ strong {
 
   .custom-btn,
   .navbar .custom-btn {
-    font-size: var(--copyright-text-font-size);
+    font-size: var(--copyright-font-size);
     padding: 8px 16px;
   }
 
